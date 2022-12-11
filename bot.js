@@ -7,7 +7,7 @@ const { token , partner, link, idvc }  = require('./config.json');
 client.on('ready',async () => {  await console.log(client.user.tag);})
 client.on('ready', async () => {
  
- client.user.setActivity(`Free reklam Send Your Link Server`, { type:'LISTENING' })
+ client.user.setActivity(`Free reklam Send Your Link Server`, { type:'STREAMING' })
 });
 
 //DSCODES//https://discord.gg/qtkPbKeDSVDSCODES//
